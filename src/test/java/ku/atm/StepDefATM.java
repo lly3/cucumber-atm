@@ -49,8 +49,8 @@ public class StepDefATM {
         atm.withdraw(amount);
     }
 
-    @When("I deposit {float} to ATM")
-    public void i_deposit_to_atm(double amount) {
+    @When("I deposit {float} with ATM")
+    public void i_deposit_with_atm(double amount) {
         atm.deposit(amount);
     }
 
